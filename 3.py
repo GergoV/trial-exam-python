@@ -11,7 +11,7 @@ class MrCube:
         self.z = z
 
     def getSurface(self):
-        return 2*(x*y) + 2*(x*z) + 2*(y*z)
+        return 2*(self.x*self.y) + 2*(self.x*self.z) + 2*(self.y*self.z)
 
     def getVolume(self):
-        return x*y*z
+        return self.x*self.y*self.z

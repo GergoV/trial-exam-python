@@ -10,11 +10,12 @@ def count_a(input_filename):
             with open(input_filename) as f:
                 a_quant = 0
                 for i in input_filename:
-                    a_quant += 1
+                    if i == 'a':
+                        a_quant += 1
                 return a_quant
-
     except FileNotFoundError:
-        return 99
+        print('File not found.')
 
-out = count_a('./gotcha.txt')
+
+out = count_a('gotcha.txt')
 print(out)
