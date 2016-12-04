@@ -27,8 +27,16 @@ The application is accepted if:
 ### Explain the algorithm used in exercise 2. Use a flowchart, structogram or pseudo code. [2p]
 #### Your answer:
 
+See flowchart.png.
+
 ### How can you get a random number in python? [2p]
 #### Your answer:
 
+You need to import 'random' module.
+random.randrange(range_start, range_end) method can be used to generate a random integer between range_start and range_end.
+
+
 ### What does M stand for in MVC? [2p]
 #### Your answer:
+
+Model.

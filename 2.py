@@ -14,7 +14,7 @@ def count_a(input_filename):
                         a_quant += 1
                 return a_quant
     except FileNotFoundError:
-        print('File not found.')
+        return 0
 
 
 out = count_a('gotcha.txt')
